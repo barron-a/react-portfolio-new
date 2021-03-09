@@ -5,7 +5,7 @@ import { About, Contact, Portfolio, Resume } from './pages';
 import './App.css';
 
 function App() {
-  
+
   return (
     <>
       <Header />
