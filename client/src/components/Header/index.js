@@ -15,9 +15,9 @@ const routes = [
 export const Header = () => {
     return (
         <header>
-            <Navbar fixed="top" bg="light" expand="lg">
+            <Navbar bg="light" expand="lg">
                 <Link to="/">
-                    <Navbar.Brand>AB</Navbar.Brand>
+                    <Navbar.Brand>Adam Barron</Navbar.Brand>
                 </Link>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">

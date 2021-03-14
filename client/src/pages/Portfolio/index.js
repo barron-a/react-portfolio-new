@@ -58,6 +58,7 @@ export const Portfolio = () => {
                         <Card 
                             key={name}
                             className="mb-4"
+                            style={{ width: '24rem' }}
                         >
                             <Card.Body>
                                 <Card.Title>{name}</Card.Title>
