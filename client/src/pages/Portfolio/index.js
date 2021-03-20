@@ -1,4 +1,5 @@
 import { ProjectCard } from "../../components/ProjectCard"
+import { Link } from 'react-router-dom';
 import Card from 'react-bootstrap/Card';
 import Container from 'react-bootstrap/Container';
 
@@ -51,20 +52,20 @@ const projects = [
 export const Portfolio = () => {
     return (
         <Container>
-            <h1>Portfolio</h1>
+            <h1 className="portfolio-header">Portfolio</h1>
             {
                 projects.map(({ photo, name, deployed, github }) => (
                     // <ProjectCard key={name}>
                         <Card 
                             key={name}
-                            className="mb-4"
+                            className="portfolio-card mb-4 text-center"
                             style={{ width: '24rem' }}
                         >
                             <Card.Body>
                                 <Card.Title>{name}</Card.Title>
                                 <Card.Text>
-                                    {deployed} <br />
-                                    {github}
+                                    <Link to ={deployed}>{name} Deployed</Link> <br />
+                                    <Link to ={github}>GitHub Repository</Link>
                                 </Card.Text>
                             </Card.Body>
                             <Card.Img variant="top"

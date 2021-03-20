@@ -1,5 +1,19 @@
 header {
     position: relative;
+    background-color: #97afaa;
+}
+
+footer {
+    background-color: #97afaa;
+    height: fit-content;
+    position: sticky;
+    bottom: 0;
+    width: 100%;
+}
+
+#root {
+    background-color: #dae8b0;
+    height:fit-content;
 }
 
 .header-img {
@@ -9,7 +23,39 @@ header {
     top: 0;
 }
 
+.navbar-items {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
 .about-photo {
     height: 400px;
     width: 315px;
 }
+
+.portfolio-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.portfolio-card {
+    display: flex;
+    width: 75% !important;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.footer-icons {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+.fa {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+

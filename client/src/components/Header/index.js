@@ -1,9 +1,6 @@
-import Container from 'react-bootstrap/esm/Container';
-import Row from 'react-bootstrap/Row';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import { Link } from 'react-router-dom';
-import coverImage from '../../assets/cover-image/cover-image.jpg';
 
 const routes = [
     { text: "About", path: "/" },
@@ -15,7 +12,7 @@ const routes = [
 export const Header = () => {
     return (
         <header>
-            <Navbar bg="light" expand="lg">
+            <Navbar expand="lg">
                 <Link to="/">
                     <Navbar.Brand>Adam Barron</Navbar.Brand>
                 </Link>
@@ -23,7 +20,7 @@ export const Header = () => {
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="mr-auto">
                         {routes.map(({ text, path }) => (
-                            <Link to={path} key={path}>{text}</Link>
+                            <Link to={path} key={path} className="navbar-items">{text}</Link>
                         ))}
                     </Nav>
                 </Navbar.Collapse>

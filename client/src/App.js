@@ -1,6 +1,7 @@
 import { Switch, Route, Redirect } from 'react-router-dom';
 
 import { Header } from './components/Header';
+import { Footer } from './components/Footer';
 import { About, Contact, Portfolio, Resume } from './pages';
 import './App.css';
 
@@ -26,6 +27,7 @@ function App() {
           <Redirect to="/" />
         </Route>
       </Switch>
+      <Footer />
     </>
   );
 }
