@@ -1,8 +1,8 @@
-import { ProjectCard } from "../../components/ProjectCard"
 import { Link } from 'react-router-dom';
 import Card from 'react-bootstrap/Card';
 import Container from 'react-bootstrap/Container';
 
+import superHeroSmashPhoto from '../../assets/project-images/superherosmash.png';
 import getawayPhoto from '../../assets/project-images/getaway.png';
 import daySpaPhoto from '../../assets/project-images/day-spa.png';
 import techBlogPhoto from '../../assets/project-images/tech-blog.png';
@@ -11,6 +11,12 @@ import weatherPhoto from '../../assets/project-images/weather-dashboard.png';
 import noteTakerPhoto from '../../assets/project-images/notetaker.png';
 
 const projects = [
+    {
+        name: "SuperHeroSmash",
+        deployed: "https://superherosmash.herokuapp.com/",
+        github: "https://github.com/melissabarrerafarias/superherosmash",
+        photo: superHeroSmashPhoto
+    },
     {
         name: "Getaway",
         deployed: "https://barron-a.github.io/getaway/",

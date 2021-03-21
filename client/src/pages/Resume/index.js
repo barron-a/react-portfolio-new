@@ -1,5 +1,4 @@
 import Container from 'react-bootstrap/Container';
-import Row from 'react-bootstrap/Row';
 import Pdf from './Adam Barron Resume_March 2021.pdf'
 
 export const Resume = () => {
@@ -9,7 +8,7 @@ export const Resume = () => {
                 Resume
             </h1>
             <div className="resume-download">
-                <a href = {Pdf} target = "_blank">View and Download Resume</a>
+                <a href = {Pdf} target="_blank" rel="noreferrer">View and Download Resume</a>
             </div>
             <div className="proficiencies-header">
                 <h1>

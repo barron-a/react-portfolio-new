@@ -1,6 +1,5 @@
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
-import { NavLink } from 'react-router-dom';
 import { Link } from 'react-router-dom';
 
 const routes = [
