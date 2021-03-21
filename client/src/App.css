@@ -6,15 +6,20 @@ header {
 footer {
     background-color: #97afaa;
     height: fit-content;
-    position: sticky;
+    position: fixed;
     bottom: 0;
+    clear: both;
     width: 100%;
 }
 
 #root {
     background-color: #dae8b0;
-    height: max-content;
+    min-height: 100vh;
     font-family: 'Nanum Gothic', sans-serif;;
+}
+
+body {
+    padding-bottom: 40px;
 }
 
 h1 {
@@ -30,6 +35,8 @@ h1 {
 }
 
 .navbar-items {
+    display: flex;
+    color: #1b4079;
     padding-left: 15px;
     padding-right: 15px;
 }
@@ -62,6 +69,40 @@ h1 {
     align-items: center;
     margin-left: auto;
     margin-right: auto;
+}
+
+.resume-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.resume-download {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.proficiencies-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.prof-list {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    font-size: larger;
+    font-weight: 700;
 }
 
 .footer-icons {
