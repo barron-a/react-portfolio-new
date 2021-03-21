@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
 import { validateEmail } from '../../utils/validateemail';
 import Container from 'react-bootstrap/Container';
+import Form from 'react-bootstrap/Form';
+import Button from 'react-bootstrap/Button';
 
 export const Contact = () => {
     const [formState, setFormState] = useState({ name: '', email: '', message: '' });
@@ -38,26 +40,38 @@ export const Contact = () => {
         <Container>
             <section>
                 <h1>Contact Me</h1>
-                <form id="contact-form" onSubmit={handleSubmit}>
-                    <div>
+                <Form id="contact-form" onSubmit={handleSubmit}>
+                    {/* <div>
                         <label htmlFor="name">Name:</label>
                         <input type="text" defaultValue={name} onBlur={handleChange} name="name" />
-                    </div>
-                    <div>
+                    </div> */}
+                    <Form.Group>
+                        <Form.Label>Name</Form.Label>
+                        <Form.Control placeholder="Enter Name" />
+                    </Form.Group>
+                    {/* <div>
                         <label htmlFor="email">Email address:</label>
                         <input type="email" defaultValue={email} onBlur={handleChange} name="email" />
-                    </div>
-                    <div>
+                    </div> */}
+                    <Form.Group controlId="formBasicEmail">
+                        <Form.Label>Email Address</Form.Label>
+                        <Form.Control type="email" placeholder="Enter Email" />
+                    </Form.Group>
+                    {/* <div>
                         <label htmlFor="message">Message:</label>
                         <textarea name="message" defaultValue={message} onBlur={handleChange} rows="5" />
-                    </div>
+                    </div> */}
+                    <Form.Group>
+                        <Form.Label>Message</Form.Label>
+                        <Form.Control as="textarea" rows={4} />
+                    </Form.Group>
                     {errorMessage && (
                         <div>
                             <p className="error-text">{errorMessage}</p>
                         </div>
                     )}
-                    <button type="submit">submit</button>
-                </form>
+                    <Button className="submit-btn" variant="primary" type="submit">submit</Button>
+                </Form>
             </section>
         </Container>
     );

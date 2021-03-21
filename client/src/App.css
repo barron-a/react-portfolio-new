@@ -13,7 +13,7 @@ footer {
 
 #root {
     background-color: #dae8b0;
-    height:fit-content;
+    height: max-content;
 }
 
 .header-img {

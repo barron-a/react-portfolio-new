@@ -65,7 +65,7 @@ export const Portfolio = () => {
                                 <Card.Title>{name}</Card.Title>
                                 <Card.Text>
                                     <Link to ={deployed}>{name} Deployed</Link> <br />
-                                    <Link to ={github}>GitHub Repository</Link>
+                                    <Link to ={github}>{name} GitHub Repository</Link>
                                 </Card.Text>
                             </Card.Body>
                             <Card.Img variant="top"
