@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/react-portfolio-new/static/css/main.62db333f.chunk.css",
+    "main.js": "/react-portfolio-new/static/js/main.a4aa0c42.chunk.js",
+    "main.js.map": "/react-portfolio-new/static/js/main.a4aa0c42.chunk.js.map",
+    "runtime-main.js": "/react-portfolio-new/static/js/runtime-main.cae94535.js",
+    "runtime-main.js.map": "/react-portfolio-new/static/js/runtime-main.cae94535.js.map",
+    "static/css/2.4c97ca4f.chunk.css": "/react-portfolio-new/static/css/2.4c97ca4f.chunk.css",
+    "static/js/2.3bc897db.chunk.js": "/react-portfolio-new/static/js/2.3bc897db.chunk.js",
+    "static/js/2.3bc897db.chunk.js.map": "/react-portfolio-new/static/js/2.3bc897db.chunk.js.map",
+    "static/js/3.95f797d7.chunk.js": "/react-portfolio-new/static/js/3.95f797d7.chunk.js",
+    "static/js/3.95f797d7.chunk.js.map": "/react-portfolio-new/static/js/3.95f797d7.chunk.js.map",
+    "index.html": "/react-portfolio-new/index.html",
+    "static/css/2.4c97ca4f.chunk.css.map": "/react-portfolio-new/static/css/2.4c97ca4f.chunk.css.map",
+    "static/css/main.62db333f.chunk.css.map": "/react-portfolio-new/static/css/main.62db333f.chunk.css.map",
+    "static/js/2.3bc897db.chunk.js.LICENSE.txt": "/react-portfolio-new/static/js/2.3bc897db.chunk.js.LICENSE.txt",
+    "static/media/Adam Barron Resume_March 2021.5e9c2056.pdf": "/react-portfolio-new/static/media/Adam Barron Resume_March 2021.5e9c2056.pdf",
+    "static/media/about-me-img.6bd77709.jpg": "/react-portfolio-new/static/media/about-me-img.6bd77709.jpg",
+    "static/media/day-spa.61c39542.png": "/react-portfolio-new/static/media/day-spa.61c39542.png",
+    "static/media/getaway.48ae4dae.png": "/react-portfolio-new/static/media/getaway.48ae4dae.png",
+    "static/media/notetaker.a661f84f.png": "/react-portfolio-new/static/media/notetaker.a661f84f.png",
+    "static/media/superherosmash.3e42bffc.png": "/react-portfolio-new/static/media/superherosmash.3e42bffc.png",
+    "static/media/tech-blog.92eab910.png": "/react-portfolio-new/static/media/tech-blog.92eab910.png",
+    "static/media/weather-dashboard.5fe0abd1.png": "/react-portfolio-new/static/media/weather-dashboard.5fe0abd1.png",
+    "static/media/work-day-scheduler.0e3c1ac0.png": "/react-portfolio-new/static/media/work-day-scheduler.0e3c1ac0.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.cae94535.js",
+    "static/css/2.4c97ca4f.chunk.css",
+    "static/js/2.3bc897db.chunk.js",
+    "static/css/main.62db333f.chunk.css",
+    "static/js/main.a4aa0c42.chunk.js"
+  ]
+}
