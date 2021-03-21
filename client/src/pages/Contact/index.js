@@ -39,7 +39,7 @@ export const Contact = () => {
     return (
         <Container>
             <section>
-                <h1>Contact Me</h1>
+                <h1 className="contact-me">Contact Me</h1>
                 <Form id="contact-form" onSubmit={handleSubmit}>
                     {/* <div>
                         <label htmlFor="name">Name:</label>
@@ -47,7 +47,7 @@ export const Contact = () => {
                     </div> */}
                     <Form.Group>
                         <Form.Label>Name</Form.Label>
-                        <Form.Control placeholder="Enter Name" />
+                        <Form.Control defaultValue={name} onBlur={handleChange} name="name" />
                     </Form.Group>
                     {/* <div>
                         <label htmlFor="email">Email address:</label>
@@ -55,7 +55,7 @@ export const Contact = () => {
                     </div> */}
                     <Form.Group controlId="formBasicEmail">
                         <Form.Label>Email Address</Form.Label>
-                        <Form.Control type="email" placeholder="Enter Email" />
+                        <Form.Control type="email" defaultValue={email} onBlur={handleChange} name="email" />
                     </Form.Group>
                     {/* <div>
                         <label htmlFor="message">Message:</label>
@@ -63,7 +63,7 @@ export const Contact = () => {
                     </div> */}
                     <Form.Group>
                         <Form.Label>Message</Form.Label>
-                        <Form.Control as="textarea" rows={4} />
+                        <Form.Control as="textarea" name="message" defaultValue={message} onBlur={handleChange} rows={4} />
                     </Form.Group>
                     {errorMessage && (
                         <div>

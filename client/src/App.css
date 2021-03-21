@@ -14,6 +14,12 @@ footer {
 #root {
     background-color: #dae8b0;
     height: max-content;
+    font-family: 'Nanum Gothic', sans-serif;;
+}
+
+h1 {
+    font-weight: 700 !important;
+    color: #1b4079;
 }
 
 .header-img {
@@ -31,6 +37,16 @@ footer {
 .about-photo {
     height: 400px;
     width: 315px;
+}
+
+.contact-me {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.submit-btn {
+    margin-bottom: 15px;
 }
 
 .portfolio-header {
